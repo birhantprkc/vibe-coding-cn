@@ -17,6 +17,8 @@ SKIP_PREFIXES = [
     Path("tools/chat-vault"),
     Path("research/vibe-cybersecurity-cn"),
     Path("research/vibe-harness-cn"),
+    Path("research/vibe-mathing-cn-public"),
+    Path("research/facts"),
 ]
 LINK_PATTERNS = [
     re.compile(r"!??\[[^\]]*\]\(([^)]+)\)"),

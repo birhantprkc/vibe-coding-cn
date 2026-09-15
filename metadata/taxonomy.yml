@@ -37,6 +37,7 @@ reading_paths:
     - docs/getting-started/vibe-coding-experience.md
     - docs/getting-started/learning-map.md
     - docs/concepts/problem-solving.md
+    - docs/concepts/vibe-coding-state-transition.md
     - docs/concepts/glue-coding.md
     - docs/references/project-architecture-template.md
     - docs/references/quality-gates-and-pitfalls.md
@@ -44,6 +45,7 @@ reading_paths:
     title: 开发者路径
     documents:
     - docs/concepts/glue-coding.md
+    - docs/concepts/vibe-coding-state-transition.md
     - docs/concepts/keyword-system.md
     - docs/concepts/system-building.md
     - docs/references/technology-stack.md
@@ -96,6 +98,9 @@ documents:
   - path: docs/concepts/problem-solving.md
     title: 问题求解
     role: 目标、现状、差距、标准、约束、对象与路径
+  - path: docs/concepts/vibe-coding-state-transition.md
+    title: Vibe Coding 状态转移闭环
+    role: 用目标、约束、行动、证据和版本统一理解 Vibe Coding
   - path: docs/concepts/glue-coding.md
     title: 拼好码
     role: 复用成熟能力、胶水原则、能力编排与业务交付
@@ -199,12 +204,15 @@ documents:
   - path: research/mindfold-ai-trellis/deep-dive.md
     title: mindfold-ai/Trellis 深度研究
     role: Harness 架构、CLI 和记忆系统的 L2 研究
-  - path: research/vibe-cybersecurity-cn/README.md
-    title: vibe-cybersecurity-cn
-    role: 授权边界内的 Agent 网络安全自动化研究与工程项目
-  - path: research/vibe-harness-cn/README.md
-    title: vibe-harness-cn
-    role: 治理 Agent Harness 与问题求解算子库的元 Harness 项目
+  - path: research/facts/README.md
+    title: 外部源事实层
+    role: 三个外部仓库的已提交源文件树、来源事实、哈希和隐私边界
+  - path: research/facts/sources.yml
+    title: 外部源事实来源登记
+    role: 源提交、树哈希、归档哈希、镜像路径和隐私修复登记
+  - path: research/facts/privacy-audit.yml
+    title: 外部源隐私审计事实
+    role: 只记录路径、行号、类别和处置状态的隐私审计登记
   - path: research/aider-ai-aider/README.md
     title: Aider-AI/aider 研究域
     role: 终端 AI 结对编程工具

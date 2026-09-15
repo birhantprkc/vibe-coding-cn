@@ -16,6 +16,8 @@ SKIP_PREFIXES = [
     Path("tools/external"),
     Path("research/vibe-cybersecurity-cn"),
     Path("research/vibe-harness-cn"),
+    Path("research/vibe-mathing-cn-public"),
+    Path("research/facts"),
 ]
 ANCHOR_PATTERN = re.compile(r"<a\s+id=[\"']([^\"']+)[\"']")
 HEADING_PATTERN = re.compile(r"^(#{1,6})\s+(.+?)\s*#*\s*$")

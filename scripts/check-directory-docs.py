@@ -56,6 +56,8 @@ SKIP_PREFIXES = [
     Path(".github/wiki"),
     Path("research/vibe-cybersecurity-cn"),
     Path("research/vibe-harness-cn"),
+    Path("research/vibe-mathing-cn-public"),
+    Path("research/facts"),
 ]
 VENDOR_SUBTREES = [
     Path("tools/external"),
